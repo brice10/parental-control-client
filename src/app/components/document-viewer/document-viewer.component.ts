@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
-import { DocumentViewerService } from '../_services/document-viewer.service';
-import { NotifService } from '../_services/notif.service';
+import { DocumentViewerService } from '../../_services/document-viewer.service';
+import { NotifService } from '../../_services/notif.service';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({

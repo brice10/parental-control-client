@@ -2,12 +2,12 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule, CanActivate } from '@angular/router';
 import { AuthGuardService as AuthGuard } from './_guards/auth.guard'
 
-import { LoginComponent } from './login/login.component';
-import { HomeComponent } from './home/home.component';
-import { DocumentViewerComponent } from './document-viewer/document-viewer.component';
-import { NotfoundComponent } from './notfound/notfound.component';
-import { AddRoleComponent } from './roles/add-role/add-role.component';
-import { AllRolesComponent } from './roles/all-roles/all-roles.component';
+import { LoginComponent } from './components/login/login.component';
+import { HomeComponent } from './components/home/home.component';
+import { DocumentViewerComponent } from './components/document-viewer/document-viewer.component';
+import { NotfoundComponent } from './components/notfound/notfound.component';
+import { AddRoleComponent } from './components/roles/add-role/add-role.component';
+import { AllRolesComponent } from './components/roles/all-roles/all-roles.component';
 
 //const routes: Routes = [];
 const routes: Routes = [

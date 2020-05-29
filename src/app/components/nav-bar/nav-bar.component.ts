@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { AuthService } from '../_services/auth.service';
+import { AuthService } from '../../_services/auth.service';
 import { TranslateService } from '@ngx-translate/core';
-import { LangService } from '../_services/lang.service';
+import { LangService } from '../../_services/lang.service';
 
 @Component({
   selector: 'app-nav-bar',
